@@ -1,6 +1,6 @@
 # AIIAP_personal_project
 
-  1、將train.p 、  valid.p、 test.p、 放在同一個資料夾下
+  1、將train.p 、  valid.p、 test.p、 signnames.csv 放在同一個資料夾下
   2、讀入資料並分為train、valid、test：
   
     import pickle
