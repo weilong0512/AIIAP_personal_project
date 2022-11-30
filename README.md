@@ -26,8 +26,9 @@
   3、將資料打散：
     from sklearn.utils import shuffle
     X_train, y_train = shuffle(X_train, y_train)
+    #利用shuffle function 打散資料，有利training
   
-  4、將資料從區間 0-255 normalize成 0-1
+  4、將資料從區間 0-255 normalize成 0-1 ：
     X_train = (X_train / 255.).astype('float32')
     X_valid = (X_valid / 255.).astype('float32')
     X_test  = (X_test  / 255.).astype('float32')
